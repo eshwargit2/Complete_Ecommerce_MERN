@@ -1,0 +1,72 @@
+.home-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(187, 209, 255) ;
+     /* font-family: "Poppins", sans-serif;
+    font-weight: 700; */
+     font-family: "Poppins", sans-serif;
+ 
+}
+.home-section img{
+    width:150px;
+    height: 250px;
+     /* opacity: 0;
+    transform: translateY(-100px);
+    animation: slideup 1s ease forwards;
+    animation-delay: var(--delay); */
+
+}
+.home-section .startbtn{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(49, 211, 49);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    transition: all 0.3S ease-in-out;
+     opacity: 0;
+    transform: translateY(100px);
+    animation: slideup 1s ease forwards;
+    animation-delay: var(--delay);
+    font-weight:600 ;
+
+}
+
+.home-section .skip{
+    position: absolute;
+    right: 10%;
+    top: 5%;
+    cursor: pointer;
+
+}
+
+
+/* animation */
+.lo{
+    --delay:0.2s
+}
+
+@keyframes slideup {
+     
+  
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.ani{
+    opacity: 0;
+    /* fill-opacity: 10px; */
+    animation: slideup 1s ease forwards;
+    animation-delay: var(--delay);
+
+}
+
+.con{
+    width: 500px;
+}

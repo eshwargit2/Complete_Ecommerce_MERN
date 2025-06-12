@@ -1,0 +1,40 @@
+.view-section{
+    width: 100%;
+   position: relative;
+   height: 100vh;
+  
+
+}
+
+.view-section .up-scroll {
+    width:100%;
+   height: 60px;
+    background-color: rgb(47, 179, 47);
+    position: fixed;
+    bottom: 0;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    transition: all 0.7s ease-in-out;
+}
+
+.up-scroll span{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.up-scroll h6,p{
+    color: white;
+}
+
+.view-section .backbtn{
+    position: absolute;
+    left: 5%;
+    top: 3%;
+    cursor: pointer;
+}
+
+@media screen and (min-width:800px)  {
+   .view-section .up-scroll{
+        display: none;
+    }
+}

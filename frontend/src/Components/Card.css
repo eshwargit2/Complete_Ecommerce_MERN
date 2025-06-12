@@ -1,0 +1,34 @@
+.card-item {
+     background-color:rgb(187, 209, 255) ;
+     width: 100%;
+     height: 100vh;
+     
+
+}
+
+
+
+.card-item .card p{
+    color: black;
+   
+}
+.card-item .card{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card-item .card img:hover{
+    cursor: zoom-in;
+}
+@media screen and (min-width:800px) {
+    
+}
+.card h6{
+    font-size: 20px;
+}
+
+.card-item .btns{
+    display: inline-block;
+}

@@ -1,0 +1,75 @@
+
+
+.card-tool .card {
+       height: 330px;
+       width: 200px;
+       display: flex;
+       justify-content: center;
+       align-items: center; 
+       border-radius: 20px;
+       border-bottom: 2px solid black;
+       border-left: 1px solid black;
+       transition: all 0.2s ease-in-out;
+        font-family: "Montserrat", sans-serif;  
+
+}
+.card-tool .card:hover{
+  transform: scale(0.89);
+}
+
+.card-tool .card h6{
+    font-size: 15px;
+   font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+  }
+
+/* .card button{
+    border-radius: 30px;
+    background-color: rgb(16, 159, 16);
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 8px 14px ;
+} */
+.card button:focus{
+    border: 1px solid green;
+    color: green;
+    background-color: white;
+}
+
+  @media screen and (max-width:750px) {
+    .card-tool .card{
+        width: 180px;
+        height: 300px;
+    }
+    .card img{
+        width: 100px;
+    }
+  }
+
+  .card .cardbtn{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    display: flex;
+        
+    justify-content: end;
+       transition: all 0.3s ease-in-out;
+
+  }
+  .cardbtn svg{
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+  }
+  .cardbtn svg:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.20);
+  }
+  .card img{
+        transition: all 0.3s ease-in-out;
+  }
+  .card img:hover{
+        transition: all 0.3s ease-in-out;
+       transform: scale(1.1);
+       cursor: pointer;
+    }
