@@ -1,7 +1,7 @@
-<h1>E-commerce website project built using the MERN stack (MongoDB, Express.js, React.js, Node.js).</h1>
+<h1>🛒E-commerce website project built using the MERN stack (MongoDB, Express.js, React.js, Node.js).</h1>
 
 <p>
-   full-stack e-commerce web application built using the MERN stack, which includes MongoDB for the database, Express.js and Node.js for the backend server, and React.js for the frontend interface. This project provides a complete solution for building an online shopping platform, including user registration and login using <h3>JWT</h3>  authentication, product listings, shopping cart functionality, and order management.
+  💻 full-stack e-commerce web application built using the MERN stack, which includes MongoDB for the database, Express.js and Node.js for the backend server, and React.js for the frontend interface. This project provides a complete solution for building an online shopping platform, including user registration and login using <h3>JWT</h3>  authentication, product listings, shopping cart functionality, and order management.
 </p>
 
 <p>
