@@ -289,7 +289,7 @@ app.get('/orders', async (req, res) => {
 
 
 
-
+//cancel api 
 app.post('/cancel-order', async (req, res) => {
   const { orderId, reason } = req.body;
 
@@ -301,7 +301,6 @@ app.post('/cancel-order', async (req, res) => {
     order.cancelReason = reason;
     await order.save();
 
-    // Send cancellation email
     const mailOptions = {
       from: process.env.EMAIL_USER,
       to: dbemail,
