@@ -39,8 +39,25 @@
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
+    width: 100%;
     
+    display: flex;
+    flex-direction:row;
+     overflow:auto;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    overflow-inline:scroll;
+    scroll-behavior: smooth;
+    gap: 30px;
+     opacity: 0;
+    transform: translateY(100px);
+    animation: slideup 1s ease forwards;
+    animation-delay: var(--delay);
 }
+.dash-page .nav-item::-webkit-scrollbar{
+    display: none;
+}
+
 .nav-item a{
     border: 1px solid rgb(115, 114, 114);
     padding: 7px;
@@ -84,13 +101,15 @@
 
   }
 
+
+
   .card-container::-webkit-scrollbar{
     display: none;
 }
 
 @media screen and (min-width:755px) {
 .dash-page .banner{
-      height: 350px;
+      height: 400px;
       width: 100%;
 }
 }

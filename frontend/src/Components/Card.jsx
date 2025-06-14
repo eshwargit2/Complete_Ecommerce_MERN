@@ -68,7 +68,7 @@ const Card = () => {
         </div>
 
         {cartItems.length === 0 ? (
-          <p className="text-center mt-5">Your cart is empty.</p>
+          <p className="text-center text-black font-bolder mt-5">Your cart is empty.</p>
         ) : (
           <>
             <div className="table-responsive">

@@ -21,6 +21,7 @@ import Payment from './Components/Payment'
 import AddressRegister from './Components/AddressRegister'
 import ConformPay from './Components/ConformPay'
 import PaymentSuccess from './Components/PaymentSuccess'
+import OrderTrack from './Components/OrderTrack'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -53,6 +54,7 @@ function App() {
         <Route path='/addressregister' element={ <PrivateRoute><AddressRegister/></PrivateRoute>} />
         <Route path='/conformpay' element={ <PrivateRoute><ConformPay/></PrivateRoute>} />
         <Route path='/paysuccess' element={ <PrivateRoute><PaymentSuccess/></PrivateRoute>} />
+        <Route path='/track' element={ <PrivateRoute><OrderTrack/></PrivateRoute>} />
         <Route path='/register' element={<Register/>} />
         <Route path='/reset' element={<Resetpass/>}/>
        </Routes>

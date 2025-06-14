@@ -39,10 +39,10 @@ const rederact =()=>{
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src={shop1} class="d-block w-100" alt="..." style={{width:'350px',height:'250px'}} />
+      <img src="https://www.flyrobo.in/image/cache/wp/gj/Banner/arduino-module-2-640x420h.webp" class="d-block w-100" alt="..." style={{width:'350px',height:'250px'}} />
     </div>
     <div class="carousel-item">
-      <img src={shop2} class="d-block w-100" alt="..."/>
+      <img src="https://images-cdn.ubuy.co.in/634002bf23101c71c97ff62c-osoyoo-robot-car-starter-kit-for-arduino.jpg" class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
       <img src={shop3} class="d-block w-100" alt="..."/>
@@ -60,7 +60,7 @@ const rederact =()=>{
                     
                 </div>
                 <div className="col-12 text-center ani " >
-                    <h2  >Module<br />Online<span className='text-success' >Shopping</span> </h2>
+                    <h2  >CrazyRobo<br />Online<span className='text-success' >Shopping</span> </h2>
                 </div>
                 <div className="col-12 justify-content-center" style={{display:'flex'}}  >
 

@@ -328,6 +328,267 @@ Sold:"5 pcs",
 Weight:"+19.5dBm output power in 802.11b mode",
 Category:"ESP8266 ESP12F Serial WIFI Witty Cloud Development Board with MINI nodeMCU"
  },
+
+     { id: 27, img:`https://www.flyrobo.in/image/cache/wp/gj/product/ultrasonic-module-hc-sr04-distance-measuring-sensor-1100x1100.webp`,
+      name:"Ultrasonic Module HC-SR04 Distance Measuring Sensor",
+       price: '57.0',
+       description:`This HC-SR04-Ultrasonic Distance Measuring Sensor is a very popular sensor which is found in many applications where it requires to measure distance and detect the objects.
+
+The module has two eyes like projects in the front which form the Ultrasonic transmitter and Receiver.  The HC-SR04 ultrasonic sensor uses sonar to determine the distance to an object like bats or dolphins do.
+This Ultrasonic Sensor module is a transmitter, a receiver, and a control circuit in one single pack!! It has a very handy and compact construction. It offers excellent range accuracy and stable readings in an easy-to-use package. Its operation is not affected by sunlight or black material like Sharp rangefinders are (although acoustically soft materials like cloth can be difficult to detect).`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"High Precision: Up to 0.3cm",
+Category:"Sensor Module Output Signal: Electric frequency signal, high-level 5V, low-level 0V."
+ },
+     { id: 28, img:`https://www.flyrobo.in/image/cache/wp/gj/infrared_obstacle_avoidance_sensor/IR-Sensor-1100x1100.webp`,
+      name:"Infrared Line Following and Obstacle Avoidance Sensor",
+       price: '22.0',
+       description:`The sensor module light is adaptable to the environment, with a working voltage of 3.3 V to 5 V. It has a pair of infrared transmitting and receiving tubes when detecting direction meet with obstacles (reflecting surface), reflected infrared receiving by the tube.
+
+After the comparator circuit processing, a green indicator will light up, at the same time the signal output interface output a digital signal (a low-level signal), can adjust the detection distance through the potentiometer knob, effective distance range 2 ~ 80 cm, easy to assemble and use. So it can be widely used in robot obstacle avoidance, obstacle avoidance car, line count, and so on many occasions.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"High Precision: Up to 0.3cm",
+Category:"Sensor Module Obstacle detector sensor"
+ },
+     { id: 29, img:`https://www.flyrobo.in/image/cache/wp/gj/pir-motion-detector-sensor-module/pir-sensor-3-1100x1100.webp `,
+      name:"PIR Motion Detector Sensor Module",
+       price: '57.0',
+       description:`The HC-SR501 PIR Motion Detector Sensor Module is a pyroelectric device that detects motion by measuring changes in the infrared levels emitted by surrounding objects. This motion can be detected by checking for a high signal on a single I/O pin.
+
+The module has an onboard pyroelectric sensor, conditioning circuitry, and a dome-shaped Fresnel lens. It has a delay time adjustment Potentiometer and sensitivity adjustment Potentiometer. 
+
+It is used to sense the movement of people, animals, or other objects. They are commonly used in burglar alarms and automatically-activated lighting systems. Compatible with ARDUINO, RASPBERRY PI, AVR, PIC, 8051, etc.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Compact size ",
+Category:"Sensor Module Turn to Right, Distance Increases (About 7M); Turn to Left, Distance Reduce (About 3M)"
+ },
+     { id: 30, img:`https://www.flyrobo.in/image/cache/wp/gj/soil-moisture-meter-andsoil-humidity-sensor-andwater-sensor-andsoil-hygrometer-for-ardunio/soil-moisture-meter-andsoil-humidity-sensor-andwater-sensor-andsoil-hygrometer-for-ardunio-1-1100x1100.webp`,
+      name:"Soil Moisture Meter, Soil Humidity Sensor",
+       price: '33',
+       description:`This is a simple water sensor that can be used to detect soil moisture when the soil moisture deficit module plant waterer device, so that the plants in your garden without people to manage. It gives a digital output of 5V when the moisture level is high and 0V when the moisture level is low in the soil. `,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Compact size ",
+Category:"Sensor Module Dual output mode, analog output more accurate."
+ },
+     { id: 31, img:`https://www.flyrobo.in/image/cache/wp/gj/product/am2302-dht22-temperature-and-humidity-sensor-module-1100x1100.webp`,
+      name:"AM2302 DHT22 Temperature And Humidity Sensor Module",
+       price: '155',
+       description:`AM2302 Humicap digital temperature and humidity module is a digital output signal containing a calibrated temperature and humidity combined sensor.
+
+It uses dedicated digital modules capture technology and the temperature and humidity sensor technology to ensure that products with high reliability and excellent long-term stability.
+
+The sensor includes a capacitive humidity sensing element and high-precision temperature measurement devices, and a high-performance 8-bit microcontroller connected. Therefore, the product has the excellent quality, fast response, anti-interference ability, high cost, and other advantages. Ultra-small size, low power consumption, signal transmission distance up to 20 meters.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Dimension: 40 x 23mm",
+Category:"Sensor Module Full range temperature compensated"
+ },
+     { id: 32, img:`https://www.flyrobo.in/image/cache/wp/gj/ds18b20_digital_temperature_sensor_module_for_arduino/ds18b20_digital_temperature_sensor_module_for_arduino11-1100x1100.webp`,
+      name:'DS18B20 Digital Temperature Sensor Module',
+       price: '66',
+       description:`DS18B20 Temperature Sensor Module is a Digital temperature sensor DS18B20 that will tell you temperature with 9 to 12-bit resolution! Uses only 1 wire to the Arduino or other microcontroller for communication. With the One Wire protocol, you can operate a large number of these sensors from one Arduino pin. The connection of this sensor to the Arduino via the 1-wire protocol is established. Therefore, several sensors can be connected only through one common wire to Arduino.
+
+This is the latest DS18B20 1-Wire digital temperature sensor from Maxim IC. Reports °C with 9 to 12-bit precision, -55°C to 125°C (+/-0.5°C). Each sensor has a unique 64-Bit Serial number etched into it allows for a huge number of sensors to be used on one data bus.
+
+This is a wonderful part that is the cornerstone of many data-logging and temperature control projects.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Compact size",
+Category:"Sensor Module Multi-drop capability simplifies distributed temperature sensing applications"
+ },
+   { id: 33, img:`https://www.flyrobo.in/image/cache/wp/gj/max31865-rtd-platinum-pt100-pt1000-temperature-digital-voltage-converter/max31865-rtd-platinum-pt100-pt1000-temperature-digital-voltage-converter1-1100x1100w.webp`,
+      name:"MAX31865 RTD Platinum PT100 to PT1000 Temperature",
+       price: '462',
+       description:`The MAX31865 is an easy-to-use thermistor to digital output converter optimized for platinum resistance temperature detectors (RTD). The external resistor sets the RTD sensitivity, and the high-precision Δ- ΣADC converts the RTD resistor and the reference resistor to digital output. The MAX31865 input has overvoltage protection of up to ± 45V, providing configurable RTD and cable open, short circuit condition detection.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"25mm x 28mm",
+Category:"Sensor Module"
+ },
+     { id: 34, img:`https://www.flyrobo.in/image/cache/wp/gj/lm393-photosensitive-ldr-sensor-module/lm393-photosensitive-ldr-sensor-module1-1100x1100.webp`,
+      name:"LM393 Photosensitive LDR Sensor Module",
+       price: '30',
+       description:`The LDR Sensor Module is used to detect the presence of light / measuring the intensity of light. The output of the module goes high in the presence of light and it becomes low in the absence of light. The sensitivity of signal detection can be adjusted using a potentiometer.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Compact size",
+Category:"Sensor Module"
+ },
+     { id: 35, img:`https://www.flyrobo.in/image/cache/wp/gj/Color-sensor-TCS230-TCS3200-Color-Recognition-Sensor-Detector-Module-DC/color-sensor-tcs230-tcs3200-color-recognition-sensor-detector-module-1100x1100.webp`,
+      name:"Color sensor TCS230 TCS3200 Color Recognition Sensor",
+       price: '344',
+       description:`TCS230 8-pin SOIC surface-mount package, on a single chip,, has 64 photodiodes. These diodes are divided into four types. 16 of the photodiode with a red filter; 16 photodiodes with a green filter; 16 photodiodes with a blue filter; the remaining 16 without any filter, may all the optical information through. The photodiode chip is staggered, it is possible that minimize non-uniformity of the incident radiation, thereby increasing the accuracy of the color recognition; on the other hand, the same color of the photodiode 16 is connected in parallel, uniformly distributed in the diode array, you can eliminate the position error color.
+Work by two programmable pins to dynamically select the desired filter. The typical output frequency range of the sensor from 2 Hz ~ 500 kHz, users can also select two programmable pins to 100%, 20%, or 2% of the output scale factor, or power-off mode. Output scale factor so that the output of the sensor can be adapted to different measurement range and increases its ability to adapt. For example, when using a low-speed frequency counter, you can choose a small scaling value that TCS230 output frequency and counter match.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Compact size",
+Category:"Sensor Module"
+ },
+     { id: 36, img:`https://www.flyrobo.in/image/cache/wp/gj/raindrop-detection-sensor-module/raindrop-detection-sensor-module1-1100x1100.webp`,
+      name:"Raindrop Detection Sensor Module",
+       price: '45',
+       description:`The raindrop sensor module is used for rain detection. It is also for measuring rainfall intensity. The module includes a rain board and a control board that is separate for more convenience. It has a power indicator LED and an adjustable sensitivity though a potentiometer.
+
+The module is based on the LM393 op-amp. It includes a printed circuit board that “collects” the raindrops. As raindrops are collected on the circuit board, they create paths of parallel resistance that are measured via the op-amp. The lower the resistance, the lower the voltage output. Conversely, the less water, the greater the output voltage on the analog pin. A completely dry board, for example, will cause the module to output five volts.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Compact size",
+Category:"Sensor Module"
+ },
+     { id: 37, img:`https://www.flyrobo.in/image/cache/wp/gj/cjmcu-75-lm75-temperature-sensor-high-speed-i2c-development-board/cjmcu-75-lm75-temperature-sensor-high-speed-i2c-development-board1-1100x1100.webp`,
+      name:"CJMCU-75 LM75 Temperature Sensor High-speed",
+       price: '85',
+       description:`It is a high-speed I2C interface temperature sensor. In the temperature range of -55 ℃ ~ + 125 ℃, the temperature was directly converted to digital signals, and to achieve the accuracy of 0.125 ℃. MCU can read data of its internal registers directly via the I2C bus and can operate four registers through I2C to set different operating modes. LM75A has three selectable logic address pins, making it possible to connect eight devices at the same time without address conflict on the same bus.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Compact size",
+Category:"Sensor Module , stand-alone temperature controller"
+ },
+     { id: 38, img:`https://www.flyrobo.in/image/cache/wp/gj/gas-sensor/MQ-2/MQ-2-1100x1100.webp`,
+      name:"MQ-2 Smoke/LPG/CO Gas Sensor Module",
+       price: '85',
+       description:`The analog gas sensor - MQ2 is used in gas leakage (like Smoke methane and liquified flammable gas) detecting equipment in consumer and industry markets, this sensor is suitable for detecting LPG, i-butane, Propane, Methane, Alcohol, Hydrogen, and Smoke. It has high sensitivity and fast response time and the sensitivity can be adjusted using the potentiometer.
+
+This is very easy to use low-cost semiconductor Gas sensor Module with analog and digital output. This module uses the MQ2 Smoke & Flammable gas sensor as a gas sensing element. It requires no external components just plug in Vcc & ground pins and you are ready to go.
+
+Using this module you can easily interface MQ2 Smoke & Combustible gas Sensor to any Microcontroller, Arduino, or even Raspberry Pi.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Compact size",
+Category:"Sensor Module , Can be used to Measure or detect LPG, Alcohol, Propane, Hydrogen, CO, and even methane."
+ },
+     { id: 39, img:`https://www.flyrobo.in/image/cache/wp/gJ/product/l298n-motor-driver-module-for-arduino-1100x1100.webp`,
+      name:"L298N Motor Driver Module For Arduino",
+       price: '147',
+       description:`L298N 2A Based Motor Driver is a high power motor driver perfect for driving DC Motors and Stepper Motors.
+
+It uses the popular L298 motor driver IC and has an onboard 5V regulator which it can supply to an external circuit. It can control up to 4 DC motors, or 2 DC motors with directional and speed control.
+
+This motor driver is perfect for robotics and mechatronics projects and perfect for controlling motors from microcontrollers, switches, relays, etc. Perfect for driving DC and Stepper motors for micro mouse, line-following robots, robot arms, etc.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Compact size",
+Category:"motor driver"
+ },
+     { id: 40, img:`https://www.flyrobo.in/image/cache/wp/gJ/product/l293d-motor-driver-shield-for-arduino-1100x1100.webp`,
+      name:"L293D Motor Driver Shield For Arduino",
+       price: '122',
+       description:`L293D use 16 pin DIP package, its internal integration is bipolar H - bridge circuit.
+This kind of bipolar pulse width method has many advantages, such as the current continuous, or microcurrent vibration when the motor stops, which as a lubrication effect. It can eliminate the dead zone of static friction when positive and negative.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Compact size",
+Category:"motor driver"
+ },
+     { id: 41, img:`https://www.flyrobo.in/image/cache/wp/gJ/product/16-channel-pwm-servo-motor-driver-i2c-module-1100x1100.webp`,
+      name:"16 Channel PWM Servo Motor Driver I2C Module",
+       price: '223',
+       description:`﻿This is 16 Channel PWM Servo Motor Driver 12C Module.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Compact size",
+Category:"motor driver"
+ },
+     { id: 42, img:`https://www.flyrobo.in/image/cache/wp/gJ/product/l293d-motor-drive-module-1100x1100.webp`,
+      name:"L293D Motor Drive Module",
+       price: '223',
+       description:`The Device is a monolithic integrated high voltage, high current four channel driver designed to accept standard DTL or TTL logic levels and drive inductive loads (such as relays solenoids, DC and stepping motors) and switching power transistors.
+
+To simplify use as two bridges each pair of channels is equipped with an enable input. A separate supply input is provided for the logic, allowing operation at a lower voltage, and internal clamp diodes are included. This device is suitable for use in switching applications at frequencies up to 5 kHz.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Compact size",
+Category:"motor driver"
+ },
+     { id: 43, img:`https://www.flyrobo.in/image/cache/wp/gj/DRV8825/drv8825-stepper-motor-driver-with-aluminum-heat-sink-1100x1100.webp`,
+      name:"DRV8825 Stepper Motor Driver with Aluminum Heat Sink",
+       price: '103',
+       description:`The DRV8825 stepper motor driver carrier is a breakout board for TI’s DRV8825 micro-stepping bipolar stepper motor driver. The DRV8825 features adjustable current limiting, over-current and over-temperature protection, and six microstep resolutions (down to 1/32-step). It operates from 8.2 – 45 V and can deliver up to approximately 1.5 A per phase without a heat sink or forced air flow (rated for up to 2.2 A per coil with sufficient additional cooling).
+
+This product is a carrier board or breakout board for TI’s DRV8825 stepper motor driver; we therefore recommend careful reading of the DRV8825 datasheet before using this product. This stepper motor driver lets you control one bipolar stepper motor at up to 2.2 A output current per coil. `,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Compact size",
+Category:"motor driver"
+ },
+     { id: 44, img:`https://www.flyrobo.in/image/cache/wp/gJ/Motor-and-Driver/tb6612fng-dual-motor-driver-module-1a-for-arduino-micro-controller-1100x1100.webp`,
+      name:"TB6612FNG Dual Motor Driver Module 1A",
+       price: '173',
+       description:`The TB6612FNG Module motor driver can control up to two DC motors at a constant current of 1.2A (3.2A peak). Two input signals (IN1 and IN2) can be used to control the motor in one of four function modes – CW, CCW, short-brake, and stop.
+
+The two motor outputs (A and B) can be separately controlled, the speed of each motor is controlled via a PWM input signal with a frequency up to 100kHz. The STBY pin should be pulled high to take the motor out of standby mode.
+
+Logic supply voltage (VCC) can be in the range of 2.7-5.5VDC, while the motor supply (VM) is limited to a maximum voltage of 15VDC. The output current is rated up to 1.2A per channel (or up to 3.2A for a short, single pulse).
+
+Decoupling capacitors are included on both supply lines. All pins of the TB6612FNG are broken out to two 0.1″ pitch headers; the pins are arranged such that input pins are on one side and output pins are on the other.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Compact size",
+Category:"motor driver"
+ },
+      { id: 45, img:`https://www.flyrobo.in/image/cache/wp/gj/product/dc-3-6v-bo-gear-motor-with-plastic-tire-wheel-for-arduino-smart-car-1100x1100.webp`,
+      name:"DC 200RPM 3-6v BO Gear Motor",
+       price: '79',
+       description:`Plastic Tire Wheel With DC 3-6v Gear Motor For Arduino Smart Car`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Motor Weight (g): 29/each",
+Category:" DC motor"
+ },
+     { id: 46, img:`https://www.flyrobo.in/image/cache/wp/gj/200rpm-dc-3-12v-l-shape-bo-gear-motor-one-side-shaft-for-arduino-smart-car/200rpm-dc-3-12v-l-shape-bo-gear-motor-one-side-shaft-for-arduino-smart-car-5-1100x1100h.webp`,
+      name:"200RPM DC 3-12V L-Shape BO Gear Motor",
+       price: '79',
+       description:`The 200 RPM Single Shaft L- Shaped BO Motor motor gives good torque and rpm at lower operating voltages, which is the biggest advantage of these motors. It is an alternative to our metal gear DC motors. It comes with an operating voltage of 3-6V and is perfect for building small and medium robots.
+
+
+A small shaft with matching wheels gives an optimized design for your application or robot. Mounting holes on the body & lightweight makes it suitable for in-circuit placement. The motor is ideal for DIY enthusiasts. This motor set is inexpensive, small, easy to install, and ideally suited for use in a mobile robot car.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Motor Weight (g): 29/each",
+Category:" DC motor"
+ },
+     { id: 47, img:`https://www.flyrobo.in/image/cache/wp/gj/12v-500rpm-n20-metal-gear-motor/12v-500rpm-n20-metal-gear-motor1-1100x1100.webp`,
+      name:"12V 500rpm N20 Metal Gear Motor",
+       price: '228',
+       description:`Please welcome our strong 12V 500 rpm N20 Metal Gear Motor. This engine is built to be durable and efficient, despite its small size. Its 500 revolutions per minute (rpm) speed allows it to function admirably in a variety of applications. It is perfect for tiny machinery, do-it-yourself projects, and robots because of the metal gears that guarantee dependable and smooth performance.
+
+Our N20 Metal Gear Motor's dependability and strength will enhance your efforts.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Compact size",
+Category:" DC motor"
+ },
+     { id: 48, img:`https://www.flyrobo.in/image/cache/wp/gj/high-torque-motor/1-1100x1100w.webp`,
+      name:"1000RPM High Torque Side Shaft DC Metal Geared",
+       price: '228',
+       description:`1000 RPM 12V DC Johnson high torque geared motors for robotics applications. It gives a massive torque of 10Kgcm. The motor comes with metal gearbox and off-cantered shaft.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"180gm",
+Category:"gear motor"
+ },
+     { id: 49, img:`https://www.flyrobo.in/image/cache/wp/gp/12v-60-rpm-25ga-370-dc-gear-motor/12v-60-rpm-25ga-370-dc-gear-motor-1-1100x1100.webp`,
+      name:"12V-60 RPM 25GA-370 DC Gear Motor",
+       price: '898',
+       description:`The 12V-60 RPM 25GA-370 DC Gear Motor is a compact and efficient motor ideal for various low-speed, high-torque applications. It features a robust 25mm diameter gearbox paired with a durable 370 DC motor. Designed for reliable performance, it operates at 60 RPM under a 12V input, delivering consistent speed and torque. Its metal gears enhance durability and reduce wear, making it suitable for robotics, DIY projects, and industrial use. With a lightweight design, it ensures easy integration into compact spaces. The motor's quiet operation and energy efficiency add to its versatility in precision-driven applications.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Compact size",
+Category:"gear motor"
+ },
+     { id: 50, img:`https://www.flyrobo.in/image/cache/wp/ge/c1a-reduction-gearbox-gear-motor/c1a-reduction-gearbox-gear-motor-5-1100x1100.webp`,
+      name:"C1A Reduction Gearbox Gear Motor",
+       price: '68',
+       description:`The C1A Reduction Gearbox Gear Motor is a compact and efficient motor solution designed for applications requiring low-speed, high-torque output. It features a durable gearbox that ensures consistent performance and long service life. With precision-engineered gears, it minimizes noise and improves efficiency in demanding environments. The motor supports a wide range of voltages, making it versatile for robotics, automation, and DIY projects. Its compact size allows for easy integration into tight spaces. Reliable and cost-effective, the C1A motor is ideal for powering small mechanisms and devices.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"Compact size",
+Category:"gear motor"
+ },
   ];
   const filteredProducts = Products1.filter((product) =>
     product.name.toLowerCase().includes(searchTerm.toLowerCase())

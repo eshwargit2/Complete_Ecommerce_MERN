@@ -1,10 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Navbar from './Navbar';
+import { useNavigate } from 'react-router-dom';
+
+
 
 const MyOrders = () => {
   const [orders, setOrders] = useState([]);
   const ServerURL = import.meta.env.VITE_API_URL;
+
+
 
   useEffect(() => {
     axios.get(`${ServerURL}/orders`)
@@ -15,6 +20,42 @@ const MyOrders = () => {
         console.error('Error fetching orders:', err);
       });
   }, []);
+
+
+
+
+const handleCancel = async (orderId) => {
+  const reason = prompt("Enter reason for cancelling this order:");
+  if (!reason) return alert("Cancellation reason is required.");
+
+  try {
+    const res = await axios.post(`${ServerURL}/cancel-order`, {
+      orderId,
+      reason
+    });
+
+    alert(res.data.message || "Order cancelled successfully.");
+
+    // ✅ update order in state
+    setOrders(prevOrders =>
+      prevOrders.map(order =>
+        order._id === orderId
+          ? { ...order, status: 'cancelled', cancelReason: reason }
+          : order
+      )
+    );
+
+  } catch (err) {
+    console.error("Cancel Error:", err);
+    alert("Failed to cancel order.");
+  }
+};
+
+const rediract = useNavigate()
+const trackOrder = (order) => {
+  rediract('/track', { state: { order } });
+};
+
 
   return (
     <div className="container mt-5">
@@ -36,8 +77,8 @@ const MyOrders = () => {
               <strong>Shipping To:</strong> {order.userAddress.name}, {order.userAddress.address1}, {order.userAddress.city}
             </p>
 
-          
-            <div className="table-responsive mt-3 ">
+            {/* Items Table */}
+            <div className="table-responsive mt-3">
               <table className="table table-bordered text-center align-middle">
                 <thead className="table-light">
                   <tr>
@@ -65,10 +106,29 @@ const MyOrders = () => {
                 </tbody>
               </table>
             </div>
+
+            {/* Status / Cancel */}
+            {order.status === 'cancelled' ? (
+              <div className="mt-3 text-danger fw-bold">
+                ❌ Order Cancelled
+                {order.cancelReason && <p className="text-muted"><strong>Reason:</strong> {order.cancelReason}</p>}
+              </div>
+            ) : (
+               <div className='col-12'>
+              <button className="btn btn-primary m-3" onClick={() => trackOrder(order)}>Track Order</button>
+
+                 <button className="btn btn-danger m-3" onClick={() => handleCancel(order._id)}>
+                Cancel Order
+              </button>
+               </div>
+             
+
+            )}
           </div>
         ))
       )}
-      <Navbar/>
+
+      <Navbar />
     </div>
   );
 };

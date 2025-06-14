@@ -1,19 +1,18 @@
 const mongoose = require('mongoose');
 
 const orderSchema = new mongoose.Schema({
- userAddress: {
-  name: String,
-  number: String,
-  address1: String,
-  address2: String,
-  address3: String,
-  pincode: String,
-  city: String,
-  state: String,
-  country: String,
-  email: { type: String, required: true }   
-},
-
+  userAddress: {
+    name: String,
+    number: String,
+    address1: String,
+    address2: String,
+    address3: String,
+    pincode: String,
+    city: String,
+    state: String,
+    country: String,
+    email: String,
+  },
   orderItems: [
     {
       name: String,
@@ -26,7 +25,16 @@ const orderSchema = new mongoose.Schema({
   date: {
     type: Date,
     default: Date.now
+  },
+  status: {
+    type: String,
+    default: 'active'
+  },
+  cancelReason: {
+    type: String,
+    default: ''
   }
 });
+
 
 module.exports = mongoose.model('Orders_Details', orderSchema);

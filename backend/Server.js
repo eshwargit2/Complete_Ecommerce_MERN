@@ -271,22 +271,55 @@ const mailOptions = {
 
 
 
-
+//order item show on a frontent api 
 app.get('/orders', async (req, res) => {
   try {
-   
     const userEmail = dbemail;  
 
     if (!userEmail) {
       return res.status(401).json({ error: 'User not logged in' });
     }
-
-    const orders = await OrderDetails.find({ 'userAddress.email': userEmail }).sort({ date: -1 });
-
+    const orders = await OrderDetails.find({ 'userAddress.email': userEmail }).sort({ date: -1 });  
     res.status(200).json({ orders });
   } catch (error) {
     console.error(' Error fetching user orders:', error);
     res.status(500).json({ error: 'Error fetching orders' });
+  }
+});
+
+
+
+
+app.post('/cancel-order', async (req, res) => {
+  const { orderId, reason } = req.body;
+
+  try {
+    const order = await OrderDetails.findById(orderId);
+    if (!order) return res.status(404).json({ message: 'Order not found' });
+
+    order.status = 'cancelled';
+    order.cancelReason = reason;
+    await order.save();
+
+    // Send cancellation email
+    const mailOptions = {
+      from: process.env.EMAIL_USER,
+      to: dbemail,
+      subject: 'Order Cancelled',
+      html: `
+        <h3 style="color:red;">❌ Order Cancelled</h3>
+        <p>Your order placed on <strong>${new Date(order.date).toLocaleString()}</strong> has been cancelled.</p>
+        <p><strong>Reason:</strong> ${reason}</p>
+        <p>If this was a mistake, please contact support.</p>
+      `
+    };
+
+    await transporter.sendMail(mailOptions);
+
+    res.status(200).json({ message: 'Order cancelled and email sent' });
+  } catch (err) {
+    console.error('Cancel order error:', err);
+    res.status(500).json({ error: 'Failed to cancel order' });
   }
 });
 
