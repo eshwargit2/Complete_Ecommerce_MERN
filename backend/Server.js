@@ -289,7 +289,7 @@ app.get('/orders', async (req, res) => {
 
 
 
-//cancel api 
+//cancel api in fronted updated in states database update
 app.post('/cancel-order', async (req, res) => {
   const { orderId, reason } = req.body;
 
@@ -313,6 +313,7 @@ app.post('/cancel-order', async (req, res) => {
       `
     };
 
+    
     await transporter.sendMail(mailOptions);
 
     res.status(200).json({ message: 'Order cancelled and email sent' });
