@@ -17,7 +17,7 @@ const conformrediract = async () => {
   try {
    // console.log("🔵 Sending to server:", { userAddress, orderItems, totalPrice }); // ✅ Log request
 
-   const email = localStorage.getItem("userEmail"); // or however you store it
+   const email = localStorage.getItem("userEmail");
 
 await axios.post(`${ServerURL}/order`, {
   userAddress: {
