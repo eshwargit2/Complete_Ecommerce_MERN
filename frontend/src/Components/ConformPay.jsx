@@ -22,7 +22,7 @@ const conformrediract = async () => {
 await axios.post(`${ServerURL}/order`, {
   userAddress: {
     ...userAddress,
-    email: email, // ✅ Inject email from frontend
+    email: email, 
   },
   orderItems,
   totalPrice,
@@ -34,8 +34,8 @@ await axios.post(`${ServerURL}/order`, {
     }, 3000);
 
   } catch (error) {
-    console.error("🔴 FRONTEND ERROR:", error); // ✅ Show actual error
-    alert('Order failed to place.');
+    console.error(" FRONTEND ERROR:", error);
+    alert('Order failed to  place.');
     setloading(false);
   }
 };

@@ -312,10 +312,7 @@ app.post('/cancel-order', async (req, res) => {
         <p>If this was a mistake, please contact support.</p>
       `
     };
-
-    
     await transporter.sendMail(mailOptions);
-
     res.status(200).json({ message: 'Order cancelled and email sent' });
   } catch (err) {
     console.error('Cancel order error:', err);
