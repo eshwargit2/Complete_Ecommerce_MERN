@@ -34,7 +34,6 @@ const Resetpass = () => {
     setLoading(false);
   };
 
-  // Step 2: Verify OTP
   const handleVerifyOtp = async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -48,7 +47,7 @@ const Resetpass = () => {
     setLoading(false);
   };
 
-  // Step 3: Reset Password
+ 
   const handleResetPassword = async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -58,7 +57,7 @@ const Resetpass = () => {
         email: formData.email,
         newPassword: formData.newPassword,
       });
-      // Redirect to sign-in page after success
+      // Redirect to sign-in page after success 
        
       setspin(true);
 
@@ -96,7 +95,7 @@ const Resetpass = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              disabled={step > 1} // disable after OTP sent
+              disabled={step > 1} 
             />
           </div>
 
