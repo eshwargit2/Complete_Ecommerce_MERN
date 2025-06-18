@@ -4,8 +4,9 @@ import { useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
    
-       const navigate = useNavigate();
+    const navigate = useNavigate();
 
+    //rediract Function 
     const home_btn=()=>{
        navigate('/dashome')
     }
@@ -21,8 +22,8 @@ const Navbar = () => {
     const account_btn=()=>{
        navigate('/account')
     }
-    
 
+    
   return (
     <div className='nav-bar' >
         <nav>
