@@ -8,7 +8,7 @@ const ConformPay = () => {
   const location = useLocation();
   const { totalPrice, orderItems, userAddress } = location.state || {};
 
-  const ServerURL = import.meta.env.VITE_API_URL;
+  const ServerURL = import.meta.env.REACT_APP_BACKEND_URL;
   const rediract = useNavigate();
 
   const [loading, setloading] = useState(false);

@@ -13,7 +13,7 @@ const [userDetail, setUserDetail]=useState({
 }) 
 
 //serverurl envsecondary data
-const ServerURL = import.meta.env.VITE_API_URL;
+const ServerURL = import.meta.env.REACT_APP_BACKEND_URL;
 
 //backend API using get the data from email and  name
  useEffect(()=>{ 

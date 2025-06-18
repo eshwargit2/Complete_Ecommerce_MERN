@@ -9,7 +9,7 @@ const [userAddress, setUserAddress]=useState({
   country:'',name:'',number:'',address1:'',address2:'', address3:'',pincode:'',city:'', state:'',email:''
 })   
 
-const ServerURL = import.meta.env.VITE_API_URL;
+const ServerURL = import.meta.env.REACT_APP_BACKEND_URL;
 
  useEffect(()=>{ 
  axios.get(`${ServerURL}/address`)

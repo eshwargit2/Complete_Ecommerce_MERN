@@ -19,7 +19,7 @@ const status = document.getElementById('s-email');
 
 
 //Server Url
-const ServerURL = import.meta.env.VITE_API_URL;
+const ServerURL = import.meta.env.REACT_APP_BACKEND_URL;
  
 
   

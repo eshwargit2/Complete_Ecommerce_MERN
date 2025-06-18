@@ -15,7 +15,7 @@ const handleChange = (e) => {
     setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
 };
 
-const ServerURL= import.meta.env.VITE_API_URL;
+const ServerURL= import.meta.env.REACT_APP_BACKEND_URL;
 
 //onsubmit  suntion
 const handleSubmit = async (e) => {
