@@ -13,7 +13,7 @@ const Resetpass = () => {
   const [errorMsg, setErrorMsg] = useState('');
   const navigate = useNavigate();
 
-  const ServerURL = import.meta.env.REACT_APP_BACKEND_URL;
+  const ServerURL = import.meta.env.VITE_API_URL;
 
   const handleChange = (e) => {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));

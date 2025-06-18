@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 
 const MyOrders = () => {
   const [orders, setOrders] = useState([]);
-  const ServerURL = import.meta.env.REACT_APP_BACKEND_URL;
+  const ServerURL = import.meta.env.VITE_API_URL;
 
 
 
