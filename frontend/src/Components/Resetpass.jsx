@@ -8,7 +8,7 @@ const Resetpass = () => {
     otp: '',
     newPassword: '',
   });
-  const [step, setStep] = useState(1); // 1 = email, 2 = verify otp, 3 = new password
+  const [step, setStep] = useState(1); 
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
   const navigate = useNavigate();
