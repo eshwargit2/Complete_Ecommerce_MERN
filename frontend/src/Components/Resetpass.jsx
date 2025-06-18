@@ -20,7 +20,7 @@ const Resetpass = () => {
     setErrorMsg('');
   };
 
-  // Step 1: Send OTP
+ 
   const handleSendOtp = async (e) => {
     e.preventDefault();
     setLoading(true);
