@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import './ConformPay.css';
@@ -17,12 +18,12 @@ const conformrediract = async () => {
   try {
    // console.log("🔵 Sending to server:", { userAddress, orderItems, totalPrice }); // ✅ Log request
 
-   const email = localStorage.getItem("userEmail");
+   const email = localStorage.getItem("userEmail"); // or however you store it
 
 await axios.post(`${ServerURL}/order`, {
   userAddress: {
     ...userAddress,
-    email: email, 
+    email: email, // ✅ Inject email from frontend
   },
   orderItems,
   totalPrice,
@@ -34,8 +35,8 @@ await axios.post(`${ServerURL}/order`, {
     }, 3000);
 
   } catch (error) {
-    console.error(" FRONTEND ERROR:", error);
-    alert('Order failed to  place.');
+    console.error("🔴 FRONTEND ERROR:", error); // ✅ Show actual error
+    alert('Order failed to place.');
     setloading(false);
   }
 };

@@ -367,7 +367,7 @@ Category:"Sensor Module Turn to Right, Distance Increases (About 7M); Turn to Le
  },
      { id: 30, img:`https://www.flyrobo.in/image/cache/wp/gj/soil-moisture-meter-andsoil-humidity-sensor-andwater-sensor-andsoil-hygrometer-for-ardunio/soil-moisture-meter-andsoil-humidity-sensor-andwater-sensor-andsoil-hygrometer-for-ardunio-1-1100x1100.webp`,
       name:"Soil Moisture Meter, Soil Humidity Sensor",
-       price: '33',
+       price: '₹33',
        description:`This is a simple water sensor that can be used to detect soil moisture when the soil moisture deficit module plant waterer device, so that the plants in your garden without people to manage. It gives a digital output of 5V when the moisture level is high and 0V when the moisture level is low in the soil. `,
 Availability:'limited',
 Sold:"5 pcs",
@@ -376,7 +376,7 @@ Category:"Sensor Module Dual output mode, analog output more accurate."
  },
      { id: 31, img:`https://www.flyrobo.in/image/cache/wp/gj/product/am2302-dht22-temperature-and-humidity-sensor-module-1100x1100.webp`,
       name:"AM2302 DHT22 Temperature And Humidity Sensor Module",
-       price: '155',
+       price: '₹155',
        description:`AM2302 Humicap digital temperature and humidity module is a digital output signal containing a calibrated temperature and humidity combined sensor.
 
 It uses dedicated digital modules capture technology and the temperature and humidity sensor technology to ensure that products with high reliability and excellent long-term stability.
@@ -389,7 +389,7 @@ Category:"Sensor Module Full range temperature compensated"
  },
      { id: 32, img:`https://www.flyrobo.in/image/cache/wp/gj/ds18b20_digital_temperature_sensor_module_for_arduino/ds18b20_digital_temperature_sensor_module_for_arduino11-1100x1100.webp`,
       name:'DS18B20 Digital Temperature Sensor Module',
-       price: '66',
+       price: '₹66',
        description:`DS18B20 Temperature Sensor Module is a Digital temperature sensor DS18B20 that will tell you temperature with 9 to 12-bit resolution! Uses only 1 wire to the Arduino or other microcontroller for communication. With the One Wire protocol, you can operate a large number of these sensors from one Arduino pin. The connection of this sensor to the Arduino via the 1-wire protocol is established. Therefore, several sensors can be connected only through one common wire to Arduino.
 
 This is the latest DS18B20 1-Wire digital temperature sensor from Maxim IC. Reports °C with 9 to 12-bit precision, -55°C to 125°C (+/-0.5°C). Each sensor has a unique 64-Bit Serial number etched into it allows for a huge number of sensors to be used on one data bus.
@@ -402,7 +402,7 @@ Category:"Sensor Module Multi-drop capability simplifies distributed temperature
  },
    { id: 33, img:`https://www.flyrobo.in/image/cache/wp/gj/max31865-rtd-platinum-pt100-pt1000-temperature-digital-voltage-converter/max31865-rtd-platinum-pt100-pt1000-temperature-digital-voltage-converter1-1100x1100w.webp`,
       name:"MAX31865 RTD Platinum PT100 to PT1000 Temperature",
-       price: '462',
+       price: '₹462',
        description:`The MAX31865 is an easy-to-use thermistor to digital output converter optimized for platinum resistance temperature detectors (RTD). The external resistor sets the RTD sensitivity, and the high-precision Δ- ΣADC converts the RTD resistor and the reference resistor to digital output. The MAX31865 input has overvoltage protection of up to ± 45V, providing configurable RTD and cable open, short circuit condition detection.`,
 Availability:'limited',
 Sold:"5 pcs",
@@ -411,7 +411,7 @@ Category:"Sensor Module"
  },
      { id: 34, img:`https://www.flyrobo.in/image/cache/wp/gj/lm393-photosensitive-ldr-sensor-module/lm393-photosensitive-ldr-sensor-module1-1100x1100.webp`,
       name:"LM393 Photosensitive LDR Sensor Module",
-       price: '30',
+       price: '₹30',
        description:`The LDR Sensor Module is used to detect the presence of light / measuring the intensity of light. The output of the module goes high in the presence of light and it becomes low in the absence of light. The sensitivity of signal detection can be adjusted using a potentiometer.`,
 Availability:'limited',
 Sold:"5 pcs",
@@ -420,7 +420,7 @@ Category:"Sensor Module"
  },
      { id: 35, img:`https://www.flyrobo.in/image/cache/wp/gj/Color-sensor-TCS230-TCS3200-Color-Recognition-Sensor-Detector-Module-DC/color-sensor-tcs230-tcs3200-color-recognition-sensor-detector-module-1100x1100.webp`,
       name:"Color sensor TCS230 TCS3200 Color Recognition Sensor",
-       price: '344',
+       price: '₹344',
        description:`TCS230 8-pin SOIC surface-mount package, on a single chip,, has 64 photodiodes. These diodes are divided into four types. 16 of the photodiode with a red filter; 16 photodiodes with a green filter; 16 photodiodes with a blue filter; the remaining 16 without any filter, may all the optical information through. The photodiode chip is staggered, it is possible that minimize non-uniformity of the incident radiation, thereby increasing the accuracy of the color recognition; on the other hand, the same color of the photodiode 16 is connected in parallel, uniformly distributed in the diode array, you can eliminate the position error color.
 Work by two programmable pins to dynamically select the desired filter. The typical output frequency range of the sensor from 2 Hz ~ 500 kHz, users can also select two programmable pins to 100%, 20%, or 2% of the output scale factor, or power-off mode. Output scale factor so that the output of the sensor can be adapted to different measurement range and increases its ability to adapt. For example, when using a low-speed frequency counter, you can choose a small scaling value that TCS230 output frequency and counter match.`,
 Availability:'limited',
@@ -430,7 +430,7 @@ Category:"Sensor Module"
  },
      { id: 36, img:`https://www.flyrobo.in/image/cache/wp/gj/raindrop-detection-sensor-module/raindrop-detection-sensor-module1-1100x1100.webp`,
       name:"Raindrop Detection Sensor Module",
-       price: '45',
+       price: '₹45',
        description:`The raindrop sensor module is used for rain detection. It is also for measuring rainfall intensity. The module includes a rain board and a control board that is separate for more convenience. It has a power indicator LED and an adjustable sensitivity though a potentiometer.
 
 The module is based on the LM393 op-amp. It includes a printed circuit board that “collects” the raindrops. As raindrops are collected on the circuit board, they create paths of parallel resistance that are measured via the op-amp. The lower the resistance, the lower the voltage output. Conversely, the less water, the greater the output voltage on the analog pin. A completely dry board, for example, will cause the module to output five volts.`,
@@ -441,7 +441,7 @@ Category:"Sensor Module"
  },
      { id: 37, img:`https://www.flyrobo.in/image/cache/wp/gj/cjmcu-75-lm75-temperature-sensor-high-speed-i2c-development-board/cjmcu-75-lm75-temperature-sensor-high-speed-i2c-development-board1-1100x1100.webp`,
       name:"CJMCU-75 LM75 Temperature Sensor High-speed",
-       price: '85',
+       price: '₹85',
        description:`It is a high-speed I2C interface temperature sensor. In the temperature range of -55 ℃ ~ + 125 ℃, the temperature was directly converted to digital signals, and to achieve the accuracy of 0.125 ℃. MCU can read data of its internal registers directly via the I2C bus and can operate four registers through I2C to set different operating modes. LM75A has three selectable logic address pins, making it possible to connect eight devices at the same time without address conflict on the same bus.`,
 Availability:'limited',
 Sold:"5 pcs",
@@ -450,7 +450,7 @@ Category:"Sensor Module , stand-alone temperature controller"
  },
      { id: 38, img:`https://www.flyrobo.in/image/cache/wp/gj/gas-sensor/MQ-2/MQ-2-1100x1100.webp`,
       name:"MQ-2 Smoke/LPG/CO Gas Sensor Module",
-       price: '85',
+       price: '₹85',
        description:`The analog gas sensor - MQ2 is used in gas leakage (like Smoke methane and liquified flammable gas) detecting equipment in consumer and industry markets, this sensor is suitable for detecting LPG, i-butane, Propane, Methane, Alcohol, Hydrogen, and Smoke. It has high sensitivity and fast response time and the sensitivity can be adjusted using the potentiometer.
 
 This is very easy to use low-cost semiconductor Gas sensor Module with analog and digital output. This module uses the MQ2 Smoke & Flammable gas sensor as a gas sensing element. It requires no external components just plug in Vcc & ground pins and you are ready to go.
@@ -463,7 +463,7 @@ Category:"Sensor Module , Can be used to Measure or detect LPG, Alcohol, Propane
  },
      { id: 39, img:`https://www.flyrobo.in/image/cache/wp/gJ/product/l298n-motor-driver-module-for-arduino-1100x1100.webp`,
       name:"L298N Motor Driver Module For Arduino",
-       price: '147',
+       price: '₹147',
        description:`L298N 2A Based Motor Driver is a high power motor driver perfect for driving DC Motors and Stepper Motors.
 
 It uses the popular L298 motor driver IC and has an onboard 5V regulator which it can supply to an external circuit. It can control up to 4 DC motors, or 2 DC motors with directional and speed control.
@@ -476,7 +476,7 @@ Category:"motor driver"
  },
      { id: 40, img:`https://www.flyrobo.in/image/cache/wp/gJ/product/l293d-motor-driver-shield-for-arduino-1100x1100.webp`,
       name:"L293D Motor Driver Shield For Arduino",
-       price: '122',
+       price: '₹122',
        description:`L293D use 16 pin DIP package, its internal integration is bipolar H - bridge circuit.
 This kind of bipolar pulse width method has many advantages, such as the current continuous, or microcurrent vibration when the motor stops, which as a lubrication effect. It can eliminate the dead zone of static friction when positive and negative.`,
 Availability:'limited',
@@ -486,7 +486,7 @@ Category:"motor driver"
  },
      { id: 41, img:`https://www.flyrobo.in/image/cache/wp/gJ/product/16-channel-pwm-servo-motor-driver-i2c-module-1100x1100.webp`,
       name:"16 Channel PWM Servo Motor Driver I2C Module",
-       price: '223',
+       price: '₹223',
        description:`﻿This is 16 Channel PWM Servo Motor Driver 12C Module.`,
 Availability:'limited',
 Sold:"5 pcs",
@@ -495,7 +495,7 @@ Category:"motor driver"
  },
      { id: 42, img:`https://www.flyrobo.in/image/cache/wp/gJ/product/l293d-motor-drive-module-1100x1100.webp`,
       name:"L293D Motor Drive Module",
-       price: '223',
+       price: '₹223',
        description:`The Device is a monolithic integrated high voltage, high current four channel driver designed to accept standard DTL or TTL logic levels and drive inductive loads (such as relays solenoids, DC and stepping motors) and switching power transistors.
 
 To simplify use as two bridges each pair of channels is equipped with an enable input. A separate supply input is provided for the logic, allowing operation at a lower voltage, and internal clamp diodes are included. This device is suitable for use in switching applications at frequencies up to 5 kHz.`,
@@ -506,7 +506,7 @@ Category:"motor driver"
  },
      { id: 43, img:`https://www.flyrobo.in/image/cache/wp/gj/DRV8825/drv8825-stepper-motor-driver-with-aluminum-heat-sink-1100x1100.webp`,
       name:"DRV8825 Stepper Motor Driver with Aluminum Heat Sink",
-       price: '103',
+       price: '₹103',
        description:`The DRV8825 stepper motor driver carrier is a breakout board for TI’s DRV8825 micro-stepping bipolar stepper motor driver. The DRV8825 features adjustable current limiting, over-current and over-temperature protection, and six microstep resolutions (down to 1/32-step). It operates from 8.2 – 45 V and can deliver up to approximately 1.5 A per phase without a heat sink or forced air flow (rated for up to 2.2 A per coil with sufficient additional cooling).
 
 This product is a carrier board or breakout board for TI’s DRV8825 stepper motor driver; we therefore recommend careful reading of the DRV8825 datasheet before using this product. This stepper motor driver lets you control one bipolar stepper motor at up to 2.2 A output current per coil. `,
@@ -532,7 +532,7 @@ Category:"motor driver"
  },
       { id: 45, img:`https://www.flyrobo.in/image/cache/wp/gj/product/dc-3-6v-bo-gear-motor-with-plastic-tire-wheel-for-arduino-smart-car-1100x1100.webp`,
       name:"DC 200RPM 3-6v BO Gear Motor",
-       price: '79',
+       price: '₹79',
        description:`Plastic Tire Wheel With DC 3-6v Gear Motor For Arduino Smart Car`,
 Availability:'limited',
 Sold:"5 pcs",
@@ -541,7 +541,7 @@ Category:" DC motor"
  },
      { id: 46, img:`https://www.flyrobo.in/image/cache/wp/gj/200rpm-dc-3-12v-l-shape-bo-gear-motor-one-side-shaft-for-arduino-smart-car/200rpm-dc-3-12v-l-shape-bo-gear-motor-one-side-shaft-for-arduino-smart-car-5-1100x1100h.webp`,
       name:"200RPM DC 3-12V L-Shape BO Gear Motor",
-       price: '79',
+       price: '₹79',
        description:`The 200 RPM Single Shaft L- Shaped BO Motor motor gives good torque and rpm at lower operating voltages, which is the biggest advantage of these motors. It is an alternative to our metal gear DC motors. It comes with an operating voltage of 3-6V and is perfect for building small and medium robots.
 
 
@@ -553,7 +553,7 @@ Category:" DC motor"
  },
      { id: 47, img:`https://www.flyrobo.in/image/cache/wp/gj/12v-500rpm-n20-metal-gear-motor/12v-500rpm-n20-metal-gear-motor1-1100x1100.webp`,
       name:"12V 500rpm N20 Metal Gear Motor",
-       price: '228',
+       price: '₹228',
        description:`Please welcome our strong 12V 500 rpm N20 Metal Gear Motor. This engine is built to be durable and efficient, despite its small size. Its 500 revolutions per minute (rpm) speed allows it to function admirably in a variety of applications. It is perfect for tiny machinery, do-it-yourself projects, and robots because of the metal gears that guarantee dependable and smooth performance.
 
 Our N20 Metal Gear Motor's dependability and strength will enhance your efforts.`,
@@ -564,7 +564,7 @@ Category:" DC motor"
  },
      { id: 48, img:`https://www.flyrobo.in/image/cache/wp/gj/high-torque-motor/1-1100x1100w.webp`,
       name:"1000RPM High Torque Side Shaft DC Metal Geared",
-       price: '228',
+       price: '₹228',
        description:`1000 RPM 12V DC Johnson high torque geared motors for robotics applications. It gives a massive torque of 10Kgcm. The motor comes with metal gearbox and off-cantered shaft.`,
 Availability:'limited',
 Sold:"5 pcs",
@@ -573,7 +573,7 @@ Category:"gear motor"
  },
      { id: 49, img:`https://www.flyrobo.in/image/cache/wp/gp/12v-60-rpm-25ga-370-dc-gear-motor/12v-60-rpm-25ga-370-dc-gear-motor-1-1100x1100.webp`,
       name:"12V-60 RPM 25GA-370 DC Gear Motor",
-       price: '898',
+       price: '₹898',
        description:`The 12V-60 RPM 25GA-370 DC Gear Motor is a compact and efficient motor ideal for various low-speed, high-torque applications. It features a robust 25mm diameter gearbox paired with a durable 370 DC motor. Designed for reliable performance, it operates at 60 RPM under a 12V input, delivering consistent speed and torque. Its metal gears enhance durability and reduce wear, making it suitable for robotics, DIY projects, and industrial use. With a lightweight design, it ensures easy integration into compact spaces. The motor's quiet operation and energy efficiency add to its versatility in precision-driven applications.`,
 Availability:'limited',
 Sold:"5 pcs",
@@ -582,13 +582,174 @@ Category:"gear motor"
  },
      { id: 50, img:`https://www.flyrobo.in/image/cache/wp/ge/c1a-reduction-gearbox-gear-motor/c1a-reduction-gearbox-gear-motor-5-1100x1100.webp`,
       name:"C1A Reduction Gearbox Gear Motor",
-       price: '68',
+       price: '₹68',
        description:`The C1A Reduction Gearbox Gear Motor is a compact and efficient motor solution designed for applications requiring low-speed, high-torque output. It features a durable gearbox that ensures consistent performance and long service life. With precision-engineered gears, it minimizes noise and improves efficiency in demanding environments. The motor supports a wide range of voltages, making it versatile for robotics, automation, and DIY projects. Its compact size allows for easy integration into tight spaces. Reliable and cost-effective, the C1A motor is ideal for powering small mechanisms and devices.`,
 Availability:'limited',
 Sold:"5 pcs",
 Weight:"Compact size",
 Category:"gear motor"
  },
+     { id: 51, img:`https://www.flyrobo.in/image/cache/wp/gj/raspberry-pi-zero-in-built-wifi-and-bluetooth/raspberry-pi-zero-in-built-wifi-and-bluetooth-1100x1100.webp`,
+      name:"Raspberry Pi Zero With In-Built Wifi and Bluetooth",
+       price: '1899',
+       description:`After the Success of Pi Zero V1.3, Raspberry Pi has launched a new Upgraded version of Raspberry Pi Zero with inbuilt Wifi and Bluetooth. The most important part about this board is cost-effectiveness. Zero W is the Smallest in the Raspberry pi Family measures only 65mm long by 30mm wide and 5mm deep.
+
+It has the same Processor as Pi 1 i.e Broadcom BCM2835 processor but clock speed is 1 GHz which is 40% faster. The Pi Zero W has all the functionality of the original Pi Zero but comes with added connectivity with 2 Micro USB Ports(1 port for Power and other for USB Connectivity), 1 mini HDMI Port, and 1 Micro SD Card Slot and has 512MB of RAM. Just like Pi3, a CYW43438 Wireless chip has been added to get Wifi on Board.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"",
+Category:"micro computer processor	Broadcom BCM2835 @1GHz "
+ },
+     { id: 52, img:`https://www.flyrobo.in/image/cache/wp/gj/raspberry-pi-4-model-b/raspberry-pi-4-model-b-with-4-gb-ram-1100x1100.webp`,
+      name:"Raspberry Pi 4 Model-B with 4 GB RAM",
+       price: '5036',
+       description:`This product’s key features include a high-performance 64-bit quad-core processor, dual-display support at resolutions up to 4K via a pair of micro-HDMI ports, hardware video decode at up to 4Kp60, 4 GB RAM, dual-band 2.4/5.0 GHz wireless LAN, Bluetooth 5.0, Gigabit Ethernet, USB 3.0, and PoE capability (via a separate PoE HAT add-on).
+
+Raspberry Pi 4 Model B is the latest product in the popular Raspberry Pi range of computers. It offers ground-breaking increases in processor speed, multimedia performance, memory, and connectivity compared to the prior-generation Raspberry Pi 3 Model B+ while retaining backward compatibility and similar power consumption. For the end-user, Raspberry Pi 4 Model B provides desktop performance comparable to entry-level x86 PC systems.
+
+Raspberry Pi Foundation has launched Raspberry Pi 4 Model B in 3 versions:`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"",
+Category:"micro computerProcessor	Broadcom BCM2711, quad-core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz"
+ },
+     { id: 53, img:`https://robocraze.com/cdn/shop/files/6_Raspberry_Pi_5_Model_2GB_RAM.png?v=1743772960&width=713`,
+      name:"Raspberry Pi 5 Model 2GB RAM",
+       price: '5129',
+       description:`The Raspberry Pi 5 Model 2GB RAM is the latest major addition announced by the Raspberry Pi Foundation. Compared to the previous Raspberry Pi 4, this model delivers a 2-3× gain in CPU speed with its Arm Cortex-A76 processor which clocked at 2.4GHz with 64 bits overall.
+
+In this board connectivity is top-notch, featuring dual-band 2.4GHz and 5.0GHz 802.11ac Wi-Fi and Bluetooth 5.0 and Bluetooth Low Energy (BLE) for seamless wireless communication. 
+
+The Raspberry Pi 5 with a 2 GB RAM board also comes with an 800MHz VideoCore VII GPU, which substantially boosts graphics power and supports dual 4Kp60 display output via HDMI. Also, it includes great camera capabilities for its newly redesigned Raspberry Pi Image Signal Processor which makes it perfect for advanced multimedia projects.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"",
+Category:"micro computerProcessor	Broadcom BCM2711, quad-core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz"
+ },
+     { id: 54, img:`https://robocraze.com/cdn/shop/files/WhatsApp_Image_2024-07-02_at_13.42.57_3ad67472.jpg?v=1743772989&width=713`,
+      name:"Official Raspberry Pi Model 1 B+",
+       price: '2840',
+       description:`The Raspberry Pi Model 1 B+ is a more powerful version of the original Raspberry Pi, it's perfect for projects that require a bit more power and flexibility. It features a 700 MHz CPU and 512 MB of memory. Has four USB ports, an HDMI connector for connecting to a TV or monitor, and a unique 40-pin header for attaching sensors and other components. Also, It has a jack for audio and video output, as well as interfaces for connecting a camera or display screen.
+
+This version of the Raspberry Pi is designed to be easier to use and more efficient. The USB ports are aligned with the edge of the board for a cleaner look, and it has a micro SD slot that’s simpler to handle than the older models.
+
+It is ideal for long-term applications as It consumes less power. The sound quality has also increased, and the board's square mounting holes make installation simple. The Raspberry Pi Model B+ is an excellent choice for all of your projects and educational requirements.
+
+`,
+Availability:'limited', 
+Sold:"5 pcs",
+Weight:"",
+Category:"micro computerProcessor	Broadcom BCM2711, quad-core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz"
+ },
+     { id: 55, img:`https://robocraze.com/cdn/shop/products/1_-mrnxod3ibjq-llqqggchwapproved_e0a17463-61ef-456c-9c0a-d8fc16c7ddd6.jpg?v=1743774978&width=533`,
+      name:"Raspberry Pi 3 Model A+",
+       price: '2558',
+       description:`The Raspberry Pi 3A+ is the newest release from the Raspberry Pi Foundation. This minimalist board based on the 3B+ has many of the same features crammed into a smaller footprint. It retains the same 64-bit 1.4 GHz quad-core processor, dual-band WiFi, and Bluetooth 4.3/BLE as the Raspberry Pi 3B+ but the Ethernet and 3 USB ports have been removed to fit into the smaller 65 x 56mm form factor. The onboard RAM has also been slimmed to 512MB.
+
+The Pi 3A+ has the same 40 pin GPIO header and mounting holes, so any standard HATs and mounting plates that work with the 3B+ will work with this version as well. Any software or operating systems compatible with the 3B+ should also be compatible with the 3A+.
+
+`,
+Availability:'limited', 
+Sold:"5 pcs",
+Weight:"",
+Category:"micro computerProcessor	Processor	Broadcom BCM2837B0, Cortex-A53 (ARMv8) 64-bit SoC @ 1.4GHz"
+ },
+     { id: 56, img:`https://robocraze.com/cdn/shop/files/1_65995c99-4975-4836-afb9-6283b2bab94a.png?v=1743769414&width=533`,
+      name:"Official Raspberry Pi 5 Model 16GB RAM",
+       price: '12599',
+       description:`Double your computing power with the new Raspberry Pi 5 16GB RAM variant! With expanded memory, this model handles resource-intensive tasks effortlessly—perfect for AI projects, data processing, and multimedia work.
+
+The Raspberry Pi 5 16GB is identical to previous Pi 5 models, supporting the same accessories, cases, and overclocking options. The only difference is the increased RAM, giving you more flexibility for demanding applications.
+
+Ideal for developers, hobbyists, and educators, this upgrade joins the 2GB, 4GB, and 8GB models, offering more power for your projects. Unlock new possibilities and take your computing to the next level with this 16GB Raspberry Pi 5 model!
+`,
+Availability:'limited', 
+Sold:"5 pcs",
+Weight:"",
+Category:"micro computerProcessor	Processor	Broadcom BCM2837B0, Cortex-A53 (ARMv8) 64-bit SoC @ 1.4GHz"
+ },
+    { id: 57, img:`https://robocraze.com/cdn/shop/products/3.2inch-rpi-lcd-b-2_30120c54-32a5-4594-af2e-c57094490728.jpg?v=1743775626&width=713`,
+      name:"3.2in Raspberry Pi Touch Screen",
+       price: '1179',
+       description:`The 3.2inch standard display, support HDMI input, refresh rate of 60FPS or more. It has a physical resolution 320*240. It can be used as display for raspberry pi, with touch control function (need to install touch drive). It also can be used as a computer monitor, TV box, PSP and other standard HDMI output device (without touch function). The 3.2 inch display module is compatible and can be inserted directly into all versions of raspberry pi board (raspberry pi, 1 generation B and Zero, HDMI line).
+
+This 3.2 Inch TFT LCD display is an alternative solution for Raspberry Pi compatible HDMI displays; the 3.2 inches Resistive TFT Touch Screen Display communicates with the main processor via SPI Protocol (serial peripheral interface). This display can be directly connected to the GPIO pins and does not require an external power source.
+
+check out : 2.4inch Raspberry Pi Display Hat - 4D Systems`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"",
+Category:"respberry pi display touch Screen"
+ },
+     { id: 58, img:`https://robocraze.com/cdn/shop/products/top.jpg?v=1743774996&width=713`,
+      name:"Waveshare HDMI 7 inch Display",
+       price: '4384',
+       description:`Waveshare 7 inch Resistive HDMI LCD display has an IPS display panel and a 1024 x 600 screen resolution. This Portable 7 inch HDMI touch display has a resistive touch screen and is made of toughened glass. This Waveshare 7 inch HDMI display is compatible with multiple mini-PCs such as the Raspberry Pi and the BeagleBone Black, as well as standard desktop computers. It also has an HDMI display interface and a USB interface for touch control.
+
+When working with Raspberry Pi, supports Raspbian, Ubuntu, WIN10 IoT, single touch, and driver When working with other mini-PCs, the driver is required and should be developed by users.
+
+This 7" Capacitive Touch Screen LCD enhances the UI experience in any project. It supports various systems such as Raspberry Pi/ Banana Pi/Banana Pro. `,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"",
+Category:"respberry pi display touch Screen"
+ },
+     { id: 59, img:`https://robocraze.com/cdn/shop/files/802.11bgnwirelessLAN_Bluetooth4.1_BLE_._92.png?v=1743774793&width=713`,
+      name:"5 inch LCD HDMI Touch Screen Display TFT LCD Panel Module",
+       price: '2479',
+       description:`The 5 Inch Touch Screen HDMI Interface TFT LCD Module is a good solution for those who are seeking a bigger resolution display. This TFT LCD Display for Raspberry Pi has a 5″ size and features an 800×480 pixel resolution. This 5 Inch Touch Screen HDMI Interface TFT LCD Module is a mini panel-mountable HDMI monitor. `,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"",
+Category:"respberry pi display touch Screen"
+ },
+     { id: 60, img:`https://robocraze.com/cdn/shop/files/Raspberry_Pi_4_8GB_Kit_with_Touchscreen.png?v=1743773565&width=713`,
+      name:"Official Raspberry Pi 4 8gb Starter Kit with 7 inch Touchscreen Display",
+       price: '18299',
+       description:`Official Raspberry Pi 4 8gb Starter Kit with 7 inch Touchscreen Display
+Build your own powerful computer with the Raspberry Pi 4 8GB RAM Kit! This all-in-one kit includes everything you need to get started, including the latest Raspberry Pi 4 Model B with 8GB RAM, an official 7" touchscreen display, a case, power adapter, HDMI cable, and a 32GB MicroSD card.
+
+The powerful 1.5GHz quad-core processor and 8GB of RAM ensure smooth operation for a variety of tasks, making this Raspberry Pi touchscreen display kit ideal for beginners and enthusiasts alike.
+
+The Raspberry Pi 4 is a credit-card-sized computer that allows you to learn programming, and electronics, and build amazing projects.
+
+With the included official touchscreen display, you can enjoy an intuitive user experience perfect for browsing, gaming, and multimedia applications. The high-quality  case with dual cooling fans keeps your Raspberry Pi cool and protected, even during extended use.
+
+This official Raspberry Pi 4 8GB Kit with screen is easy to use and maintain, making it a perfect choice for beginners. With the included accessories in this Raspberry Pi Kit and online resources, you can get started quickly and begin building your own creations!
+
+ `,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"",
+Category:"respberry pi display touch Screen"
+ },
+     { id: 61, img:`https://robocraze.com/cdn/shop/files/7_inch_LCD_Capacitive_Touch_Panel_with_HDMI_and_USB_Cable.png?v=1743775036&width=713`,
+      name:"7 inch LCD Capacitive Touch Panel with HDMI and USB Cable",
+       price: '3799',
+       description:`This 7 inch LCD Capacitive Touch Panel is not only for mini-PCs, but it can also work as a computer monitor just like any other general HDMI screen. This Display supports Raspbian, Ubuntu, WIN10 IoT, single touch, and multi-touch and when working with other mini-PCs, the 7-inch LCD driver is required and should be developed by users.
+
+The 7-inch Capacitive touch Display is activated with anything containing an inductive load such as a finger or stylus. It allows for multi-touch options. When using the capacitive touch screen, the display needs a separate controller to interface with the touch panel.
+
+The display for capacitive touch is brighter since the touch panel is transparent. The Transmissive polarizer is best used for displays that run with the backlight on all the time. This polarizer provides the brightest backlight possible.  If you need a bright backlight with a lower power drain, transmissive is a good choice for this 7-inch LCD touchscreen.
+
+If you want to use this display for raspberry pi then you will need a few handy
+ `,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"",
+Category:"respberry pi display touch Screen"
+ },
+     { id: 62, img:`https://robocraze.com/cdn/shop/products/waveshare-101-inch-capacitive-hdmi-lcd-display-b-with-case-1280800-800x800_a9379096-f1ca-4ebc-a21d-cc8096916d9d.jpg?v=1743774908&width=713`,
+      name:"Original Waveshare 10.1 inch Raspberry Pi Touch Screen Display with Case",
+       price: '11499',
+       description:`10.1 inch IPS HDMI Display with a case has 1280x800 high-resolution capacitive touch display, supports up to ten-point touch When works with Raspberry Pi, supports Raspbian, Ubuntu, Windows, single touch, and driver free When work as a computer monitor, supports Windows 8.1/8/7, ten-points touch, and driver free Supports Banana Pi, Banana Pro, comes with Ubuntu, Raspbian images Supports BB Black, comes with Angstrom image HDMI interface for displaying, USB interface for touch control Backlight control to lower power consumption The case Material: high-quality black Acrylic Comes with back holder, 45ø tilt angle Features mounting holes for Raspberry Pi 3B/3B+/2B/B+/A+/B, BB Black, Banana Pi.
+ `,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"",
+Category:"respberry pi display touch Screen"
+ },
+
   ];
   const filteredProducts = Products1.filter((product) =>
     product.name.toLowerCase().includes(searchTerm.toLowerCase())

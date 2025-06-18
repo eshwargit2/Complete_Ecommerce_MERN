@@ -624,6 +624,171 @@ Category:"gear motor"
  },
 ]
 
+const Products9 = [
+     { id: 1, img:`https://www.flyrobo.in/image/cache/wp/gj/raspberry-pi-zero-in-built-wifi-and-bluetooth/raspberry-pi-zero-in-built-wifi-and-bluetooth-1100x1100.webp`,
+      name:"Raspberry Pi Zero With In-Built Wifi and Bluetooth",
+       price: '1899',
+       description:`After the Success of Pi Zero V1.3, Raspberry Pi has launched a new Upgraded version of Raspberry Pi Zero with inbuilt Wifi and Bluetooth. The most important part about this board is cost-effectiveness. Zero W is the Smallest in the Raspberry pi Family measures only 65mm long by 30mm wide and 5mm deep.
+
+It has the same Processor as Pi 1 i.e Broadcom BCM2835 processor but clock speed is 1 GHz which is 40% faster. The Pi Zero W has all the functionality of the original Pi Zero but comes with added connectivity with 2 Micro USB Ports(1 port for Power and other for USB Connectivity), 1 mini HDMI Port, and 1 Micro SD Card Slot and has 512MB of RAM. Just like Pi3, a CYW43438 Wireless chip has been added to get Wifi on Board.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"",
+Category:"micro computer processor	Broadcom BCM2835 @1GHz "
+ },
+     { id: 2, img:`https://www.flyrobo.in/image/cache/wp/gj/raspberry-pi-4-model-b/raspberry-pi-4-model-b-with-4-gb-ram-1100x1100.webp`,
+      name:"Raspberry Pi 4 Model-B with 4 GB RAM",
+       price: '5036',
+       description:`This product’s key features include a high-performance 64-bit quad-core processor, dual-display support at resolutions up to 4K via a pair of micro-HDMI ports, hardware video decode at up to 4Kp60, 4 GB RAM, dual-band 2.4/5.0 GHz wireless LAN, Bluetooth 5.0, Gigabit Ethernet, USB 3.0, and PoE capability (via a separate PoE HAT add-on).
+
+Raspberry Pi 4 Model B is the latest product in the popular Raspberry Pi range of computers. It offers ground-breaking increases in processor speed, multimedia performance, memory, and connectivity compared to the prior-generation Raspberry Pi 3 Model B+ while retaining backward compatibility and similar power consumption. For the end-user, Raspberry Pi 4 Model B provides desktop performance comparable to entry-level x86 PC systems.
+
+Raspberry Pi Foundation has launched Raspberry Pi 4 Model B in 3 versions:`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"",
+Category:"micro computerProcessor	Broadcom BCM2711, quad-core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz"
+ },
+     { id: 3, img:`https://robocraze.com/cdn/shop/files/6_Raspberry_Pi_5_Model_2GB_RAM.png?v=1743772960&width=713`,
+      name:"Raspberry Pi 5 Model 2GB RAM",
+       price: '5129',
+       description:`The Raspberry Pi 5 Model 2GB RAM is the latest major addition announced by the Raspberry Pi Foundation. Compared to the previous Raspberry Pi 4, this model delivers a 2-3× gain in CPU speed with its Arm Cortex-A76 processor which clocked at 2.4GHz with 64 bits overall.
+
+In this board connectivity is top-notch, featuring dual-band 2.4GHz and 5.0GHz 802.11ac Wi-Fi and Bluetooth 5.0 and Bluetooth Low Energy (BLE) for seamless wireless communication. 
+
+The Raspberry Pi 5 with a 2 GB RAM board also comes with an 800MHz VideoCore VII GPU, which substantially boosts graphics power and supports dual 4Kp60 display output via HDMI. Also, it includes great camera capabilities for its newly redesigned Raspberry Pi Image Signal Processor which makes it perfect for advanced multimedia projects.`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"",
+Category:"micro computerProcessor	Broadcom BCM2711, quad-core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz"
+ },
+     { id: 4, img:`https://robocraze.com/cdn/shop/files/WhatsApp_Image_2024-07-02_at_13.42.57_3ad67472.jpg?v=1743772989&width=713`,
+      name:"Official Raspberry Pi Model 1 B+",
+       price: '2840',
+       description:`The Raspberry Pi Model 1 B+ is a more powerful version of the original Raspberry Pi, it's perfect for projects that require a bit more power and flexibility. It features a 700 MHz CPU and 512 MB of memory. Has four USB ports, an HDMI connector for connecting to a TV or monitor, and a unique 40-pin header for attaching sensors and other components. Also, It has a jack for audio and video output, as well as interfaces for connecting a camera or display screen.
+
+This version of the Raspberry Pi is designed to be easier to use and more efficient. The USB ports are aligned with the edge of the board for a cleaner look, and it has a micro SD slot that’s simpler to handle than the older models.
+
+It is ideal for long-term applications as It consumes less power. The sound quality has also increased, and the board's square mounting holes make installation simple. The Raspberry Pi Model B+ is an excellent choice for all of your projects and educational requirements.
+
+`,
+Availability:'limited', 
+Sold:"5 pcs",
+Weight:"",
+Category:"micro computerProcessor	Broadcom BCM2711, quad-core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz"
+ },
+     { id: 5, img:`https://robocraze.com/cdn/shop/products/1_-mrnxod3ibjq-llqqggchwapproved_e0a17463-61ef-456c-9c0a-d8fc16c7ddd6.jpg?v=1743774978&width=533`,
+      name:"Raspberry Pi 3 Model A+",
+       price: '2558',
+       description:`The Raspberry Pi 3A+ is the newest release from the Raspberry Pi Foundation. This minimalist board based on the 3B+ has many of the same features crammed into a smaller footprint. It retains the same 64-bit 1.4 GHz quad-core processor, dual-band WiFi, and Bluetooth 4.3/BLE as the Raspberry Pi 3B+ but the Ethernet and 3 USB ports have been removed to fit into the smaller 65 x 56mm form factor. The onboard RAM has also been slimmed to 512MB.
+
+The Pi 3A+ has the same 40 pin GPIO header and mounting holes, so any standard HATs and mounting plates that work with the 3B+ will work with this version as well. Any software or operating systems compatible with the 3B+ should also be compatible with the 3A+.
+
+`,
+Availability:'limited', 
+Sold:"5 pcs",
+Weight:"",
+Category:"micro computerProcessor	Processor	Broadcom BCM2837B0, Cortex-A53 (ARMv8) 64-bit SoC @ 1.4GHz"
+ },
+     { id: 6, img:`https://robocraze.com/cdn/shop/files/1_65995c99-4975-4836-afb9-6283b2bab94a.png?v=1743769414&width=533`,
+      name:"Official Raspberry Pi 5 Model 16GB RAM",
+       price: '12599',
+       description:`Double your computing power with the new Raspberry Pi 5 16GB RAM variant! With expanded memory, this model handles resource-intensive tasks effortlessly—perfect for AI projects, data processing, and multimedia work.
+
+The Raspberry Pi 5 16GB is identical to previous Pi 5 models, supporting the same accessories, cases, and overclocking options. The only difference is the increased RAM, giving you more flexibility for demanding applications.
+
+Ideal for developers, hobbyists, and educators, this upgrade joins the 2GB, 4GB, and 8GB models, offering more power for your projects. Unlock new possibilities and take your computing to the next level with this 16GB Raspberry Pi 5 model!
+`,
+Availability:'limited', 
+Sold:"5 pcs",
+Weight:"",
+Category:"micro computerProcessor	Processor	Broadcom BCM2837B0, Cortex-A53 (ARMv8) 64-bit SoC @ 1.4GHz"
+ },
+]
+
+const Products10 = [
+     { id: 1, img:`https://robocraze.com/cdn/shop/products/3.2inch-rpi-lcd-b-2_30120c54-32a5-4594-af2e-c57094490728.jpg?v=1743775626&width=713`,
+      name:"3.2in Raspberry Pi Touch Screen",
+       price: '1179',
+       description:`The 3.2inch standard display, support HDMI input, refresh rate of 60FPS or more. It has a physical resolution 320*240. It can be used as display for raspberry pi, with touch control function (need to install touch drive). It also can be used as a computer monitor, TV box, PSP and other standard HDMI output device (without touch function). The 3.2 inch display module is compatible and can be inserted directly into all versions of raspberry pi board (raspberry pi, 1 generation B and Zero, HDMI line).
+
+This 3.2 Inch TFT LCD display is an alternative solution for Raspberry Pi compatible HDMI displays; the 3.2 inches Resistive TFT Touch Screen Display communicates with the main processor via SPI Protocol (serial peripheral interface). This display can be directly connected to the GPIO pins and does not require an external power source.
+
+check out : 2.4inch Raspberry Pi Display Hat - 4D Systems`,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"",
+Category:"respberry pi display touch Screen"
+ },
+     { id: 2, img:`https://robocraze.com/cdn/shop/products/top.jpg?v=1743774996&width=713`,
+      name:"Waveshare HDMI 7 inch Display",
+       price: '4384',
+       description:`Waveshare 7 inch Resistive HDMI LCD display has an IPS display panel and a 1024 x 600 screen resolution. This Portable 7 inch HDMI touch display has a resistive touch screen and is made of toughened glass. This Waveshare 7 inch HDMI display is compatible with multiple mini-PCs such as the Raspberry Pi and the BeagleBone Black, as well as standard desktop computers. It also has an HDMI display interface and a USB interface for touch control.
+
+When working with Raspberry Pi, supports Raspbian, Ubuntu, WIN10 IoT, single touch, and driver When working with other mini-PCs, the driver is required and should be developed by users.
+
+This 7" Capacitive Touch Screen LCD enhances the UI experience in any project. It supports various systems such as Raspberry Pi/ Banana Pi/Banana Pro. `,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"",
+Category:"respberry pi display touch Screen"
+ },
+     { id: 3, img:`https://robocraze.com/cdn/shop/files/802.11bgnwirelessLAN_Bluetooth4.1_BLE_._92.png?v=1743774793&width=713`,
+      name:"5 inch LCD HDMI Touch Screen Display TFT LCD Panel Module",
+       price: '2479',
+       description:`The 5 Inch Touch Screen HDMI Interface TFT LCD Module is a good solution for those who are seeking a bigger resolution display. This TFT LCD Display for Raspberry Pi has a 5″ size and features an 800×480 pixel resolution. This 5 Inch Touch Screen HDMI Interface TFT LCD Module is a mini panel-mountable HDMI monitor. `,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"",
+Category:"respberry pi display touch Screen"
+ },
+     { id: 4, img:`https://robocraze.com/cdn/shop/files/Raspberry_Pi_4_8GB_Kit_with_Touchscreen.png?v=1743773565&width=713`,
+      name:"Official Raspberry Pi 4 8gb Starter Kit with 7 inch Touchscreen Display",
+       price: '18299',
+       description:`Official Raspberry Pi 4 8gb Starter Kit with 7 inch Touchscreen Display
+Build your own powerful computer with the Raspberry Pi 4 8GB RAM Kit! This all-in-one kit includes everything you need to get started, including the latest Raspberry Pi 4 Model B with 8GB RAM, an official 7" touchscreen display, a case, power adapter, HDMI cable, and a 32GB MicroSD card.
+
+The powerful 1.5GHz quad-core processor and 8GB of RAM ensure smooth operation for a variety of tasks, making this Raspberry Pi touchscreen display kit ideal for beginners and enthusiasts alike.
+
+The Raspberry Pi 4 is a credit-card-sized computer that allows you to learn programming, and electronics, and build amazing projects.
+
+With the included official touchscreen display, you can enjoy an intuitive user experience perfect for browsing, gaming, and multimedia applications. The high-quality  case with dual cooling fans keeps your Raspberry Pi cool and protected, even during extended use.
+
+This official Raspberry Pi 4 8GB Kit with screen is easy to use and maintain, making it a perfect choice for beginners. With the included accessories in this Raspberry Pi Kit and online resources, you can get started quickly and begin building your own creations!
+
+ `,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"",
+Category:"respberry pi display touch Screen"
+ },
+     { id: 5, img:`https://robocraze.com/cdn/shop/files/7_inch_LCD_Capacitive_Touch_Panel_with_HDMI_and_USB_Cable.png?v=1743775036&width=713`,
+      name:"7 inch LCD Capacitive Touch Panel with HDMI and USB Cable",
+       price: '3799',
+       description:`This 7 inch LCD Capacitive Touch Panel is not only for mini-PCs, but it can also work as a computer monitor just like any other general HDMI screen. This Display supports Raspbian, Ubuntu, WIN10 IoT, single touch, and multi-touch and when working with other mini-PCs, the 7-inch LCD driver is required and should be developed by users.
+
+The 7-inch Capacitive touch Display is activated with anything containing an inductive load such as a finger or stylus. It allows for multi-touch options. When using the capacitive touch screen, the display needs a separate controller to interface with the touch panel.
+
+The display for capacitive touch is brighter since the touch panel is transparent. The Transmissive polarizer is best used for displays that run with the backlight on all the time. This polarizer provides the brightest backlight possible.  If you need a bright backlight with a lower power drain, transmissive is a good choice for this 7-inch LCD touchscreen.
+
+If you want to use this display for raspberry pi then you will need a few handy
+ `,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"",
+Category:"respberry pi display touch Screen"
+ },
+     { id: 6, img:`https://robocraze.com/cdn/shop/products/waveshare-101-inch-capacitive-hdmi-lcd-display-b-with-case-1280800-800x800_a9379096-f1ca-4ebc-a21d-cc8096916d9d.jpg?v=1743774908&width=713`,
+      name:"Original Waveshare 10.1 inch Raspberry Pi Touch Screen Display with Case",
+       price: '11499',
+       description:`10.1 inch IPS HDMI Display with a case has 1280x800 high-resolution capacitive touch display, supports up to ten-point touch When works with Raspberry Pi, supports Raspbian, Ubuntu, Windows, single touch, and driver free When work as a computer monitor, supports Windows 8.1/8/7, ten-points touch, and driver free Supports Banana Pi, Banana Pro, comes with Ubuntu, Raspbian images Supports BB Black, comes with Angstrom image HDMI interface for displaying, USB interface for touch control Backlight control to lower power consumption The case Material: high-quality black Acrylic Comes with back holder, 45ø tilt angle Features mounting holes for Raspberry Pi 3B/3B+/2B/B+/A+/B, BB Black, Banana Pi.
+ `,
+Availability:'limited',
+Sold:"5 pcs",
+Weight:"",
+Category:"respberry pi display touch Screen"
+ },
+]
 
 
 
@@ -632,7 +797,7 @@ Category:"gear motor"
       <div className="container">
         <div className="row">
           <div className="col-12 ">
-            <h2>Online Shop</h2>
+            <h2>Crazy Robo </h2>
           </div>
          
 
@@ -653,6 +818,8 @@ Category:"gear motor"
                 <a href="#sensor">Sensors</a>
                 <a href="#driver">MotorDrives</a>
                 <a href="#motor">GearMotor</a>  
+                <a href="#pi">Raspberry Pi</a>  
+                <a href="#display">Display</a>  
           </div>
         </div>
       </div>
@@ -750,6 +917,24 @@ Category:"gear motor"
           </div>
            <div className="col-12 card-container ms-2 mt-3" id='motor'>
             {Products8.map((item, index) => (
+              <Product key={item.id} details={item} />
+            ))}
+          </div>
+          <div className="col-12 mt-5 ms-3 ">
+            <hr />
+            <h1>Respberry Pi </h1>
+          </div>
+           <div className="col-12 card-container ms-2 mt-3" id='pi'>
+            {Products9.map((item, index) => (
+              <Product key={item.id} details={item} />
+            ))}
+          </div>
+          <div className="col-12 mt-5 ms-3 ">
+            <hr />
+            <h1>Respberry Pi Display </h1>
+          </div>
+           <div className="col-12 card-container ms-2 mt-3" id='display'>
+            {Products10.map((item, index) => (
               <Product key={item.id} details={item} />
             ))}
           </div>
