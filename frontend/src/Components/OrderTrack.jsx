@@ -9,9 +9,8 @@ const OrderTrack = () => {
   
   const rediracte= useNavigate();
 
-
   if (!order) return <p className="text-center mt-5">No order data provided.</p>;
-
+  
 const handleCancel = async () => {
   const reason = prompt("Enter reason for cancelling this order:");
   if (!reason) return alert("Cancellation reason is required.");
