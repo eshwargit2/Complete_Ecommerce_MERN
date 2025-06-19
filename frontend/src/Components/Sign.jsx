@@ -44,10 +44,10 @@ const ServerURL = import.meta.env.VITE_API_URL;
 const handleSubmit = async (e) => {
   e.preventDefault();
   try {
+    setloading(true);
     const response = await axios.post(`${ServerURL}/sign`, formData);
     const token = response.data.token;
     localStorage.setItem('token', token); // Save JWT token
-    setloading(true);
     status.style.display = "none";
 
     setTimeout(() => {

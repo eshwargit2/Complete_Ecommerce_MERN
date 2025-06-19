@@ -21,8 +21,9 @@ const ServerURL= import.meta.env.VITE_API_URL;
 const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post(`${ServerURL}/register`, formData);
-      setloading(true);
+         setloading(true);
+        await axios.post(`${ServerURL}/register`, formData);
+    
       setTimeout(() => {
           navigate('/sign');
       }, 2000);
