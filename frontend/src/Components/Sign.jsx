@@ -53,7 +53,7 @@ const handleSubmit = async (e) => {
 
     setTimeout(() => {
       navigate('/dashome');
-    }, 2000);
+    }, 300);
   } catch (err) {
      setloading(false);
     status.style.display = "inline-block";

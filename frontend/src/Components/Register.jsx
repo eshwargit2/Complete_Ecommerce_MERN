@@ -26,7 +26,7 @@ const handleSubmit = async (e) => {
     
       setTimeout(() => {
           navigate('/sign');
-      }, 2000);
+      }, 300);
      
     } catch (err) {
      // alert("Registration failed");
