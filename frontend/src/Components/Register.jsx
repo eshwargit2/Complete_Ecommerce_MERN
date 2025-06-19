@@ -30,6 +30,7 @@ const handleSubmit = async (e) => {
      
     } catch (err) {
      // alert("Registration failed");
+      setloading(false);
      status.style.display="block"
     }
 };

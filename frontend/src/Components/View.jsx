@@ -45,7 +45,7 @@ const View = () => {
           </div>
         )}  
       <div className="container d-flex justify-content-center">
-        <button className='backbtn btn' onClick={back}>Back</button>
+        <button className='backbtn ' onClick={back}><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#000000"><path d="m287-446.67 240 240L480-160 160-480l320-320 47 46.67-240 240h513v66.66H287Z"/></svg></button>
         <div className="row">
           <div className="col-12 mt-5 d-flex justify-content-center ani">
             <img src={product.img} alt="" width={200} />
@@ -55,7 +55,7 @@ const View = () => {
                <p className='text-black text-3xl'> ₹{product.price}</p>
             <button className='btn btn-success mt-3' onClick={addToCart}>Add to Cart</button>
             <p className='mt-2 text-black'>Product description...</p>
-            <p className='text-black'> <summary><details> {product.description}</details></summary></p>
+            <p className='text-black'> <summary><details  > {product.description}</details></summary></p>
           </div>
           <hr className='mt-3' />
           <div className="col-12 text-black">

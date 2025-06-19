@@ -45,6 +45,7 @@ const handleSubmit = async (e) => {
   e.preventDefault();
   try {
     setloading(true);
+    
     const response = await axios.post(`${ServerURL}/sign`, formData);
     const token = response.data.token;
     localStorage.setItem('token', token); // Save JWT token
@@ -54,6 +55,7 @@ const handleSubmit = async (e) => {
       navigate('/dashome');
     }, 2000);
   } catch (err) {
+     setloading(false);
     status.style.display = "inline-block";
   }
 };
