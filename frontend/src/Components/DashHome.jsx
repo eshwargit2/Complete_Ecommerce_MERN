@@ -796,8 +796,8 @@ Category:"respberry pi display touch Screen"
     <div className='dash-page  bg-gradient-to-r '>
       <div className="container">
         <div className="row">
-          <div className="col-12 ">
-            <h2>Crazy Robo </h2>
+          <div className="col-12 mt-3 ">
+            <h2>Crazy <span className='text-success' >Robo</span>  </h2>
           </div>
          
 
