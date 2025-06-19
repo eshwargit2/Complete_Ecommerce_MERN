@@ -52,6 +52,7 @@ const View = () => {
           </div>
           <div className="col-12 mt-5 ani">
             <h3>{product.name}</h3>
+               <p className='text-black text-3xl'> ₹{product.price}</p>
             <button className='btn btn-success mt-3' onClick={addToCart}>Add to Cart</button>
             <p className='mt-2 text-black'>Product description...</p>
             <p className='text-black'> <summary><details> {product.description}</details></summary></p>
@@ -84,7 +85,7 @@ const View = () => {
             <div className="row mt-5">
               <div className="col-5 mt-5">
                 <h6>Total Price</h6>
-                <p>{product.price}</p>
+                <p> ₹{product.price}</p>
 
               </div>
               <div className="col-6 mt-5">
