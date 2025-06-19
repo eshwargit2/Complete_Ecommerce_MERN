@@ -96,7 +96,7 @@ return (
         <div className="container continue-btns  d-flex justify-content-center mt-2  ">
             <div className="row  d-flex justify-content-center mt-3 ">
                 <div className="col-12  d-flex justify-content-center mt-3 ">
-                    <p style={{fontFamily:'cursive'}} >_____________Or sign in with ____________</p>
+                    <p>_____________Or sign in with ____________</p>
                 </div>
                 <div className="col-12 d-flex justify-content-center mt-3 ">
                     <button className='text-center d-flex justify-content-center p-2'   >  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" preserveAspectRatio="xMidYMid" viewBox="0 0 256 262" id="google">

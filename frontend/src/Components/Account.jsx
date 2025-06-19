@@ -46,7 +46,7 @@ const ServerURL = import.meta.env.VITE_API_URL;
        <div className="container mt-5 ">
         <div className="row card m-5">
           <div className="banner" > </div>
-          <div className="profile col-5 ms-5" >
+          <div className="profile col-12 ms-5" >
                <div className="dp">
                    <img src="" alt="" />
                </div>
