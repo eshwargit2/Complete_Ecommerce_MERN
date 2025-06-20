@@ -12,6 +12,7 @@ const app = express();
 const User = Mongodbmodule.User;
 const SECRET_KEY = process.env.JWT_SECRET || 'secretkey';
 
+
 app.use(cors());
 app.use(express.json());
 
