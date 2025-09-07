@@ -115,7 +115,7 @@ return (
 </svg>  Continue with Apple</button>
                 </div>
                    <div className="col-12 no-account mt-3 ">
-                        <p className='text-center' >Already have an account? <Link to="/sign" className='text-success' >Sign up</Link> </p>   
+                        <p className='text-center' >Already have an account? <Link to="/sign" className='text-success' >Sign in</Link> </p>   
                    </div>
             </div>
             
